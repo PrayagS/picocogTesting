@@ -15,7 +15,7 @@ public class PicocogTest
 
         w.writeln("int foo = calcFoo();");
         w.writeln("");
-        w.writeln("// We shall dance here");
+        w.writeln("// We shall dance here soon");
         w.writeln_r("if (foo == 0) {");
         w.writeln("sayHello();");
         w.writeln_lr("} else if (foo < 100) {");
